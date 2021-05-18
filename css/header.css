@@ -1,34 +1,33 @@
 :root {
   --button-hover: #46989D;
-  --grey: rgba(211,211,211,0.5);
+  --grey: rgba(0,0,0,0.1);
 }
 
-.nav{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
+.header {
+  background: url(../img/destaque.jpeg) no-repeat;
+  background-size: cover;
+  padding-top: 32px;
 }
 
-.nav-item {
-  background-color: var(--grey);
-  padding: 10px;
-  border-radius: 5px;
-  margin-left: 5px;
-  margin-top: 30px;
-  transition: background-color 0.5s linear;
+.header .main-menu{
+  text-align: center;
 }
 
-.nav-item a {
+.header .main-menu .menu-item {
+  display: inline-block;
+  margin: 0 2px 32px 0;
+}
+
+.header .main-menu .menu-item a {
   color: white;
+  padding: 16px;
+  background: var(--grey);
+  border-radius: 4px;
   text-decoration: none;
-  font-weight: 900;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  transition: background-color 0.5s linear;
 }
 
-.nav-item:hover {
+.header .main-menu .menu-item a:hover {
   background-color: var(--button-hover);
-  transition: background-color 0.5s linear;
 }
