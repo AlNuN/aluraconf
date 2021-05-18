@@ -1,0 +1,34 @@
+:root {
+  --button-hover: #46989D;
+  --grey: rgba(211,211,211,0.5);
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.nav-item {
+  background-color: var(--grey);
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 30px;
+  transition: background-color 0.5s linear;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-item:hover {
+  background-color: var(--button-hover);
+  transition: background-color 0.5s linear;
+}
