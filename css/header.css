@@ -1,5 +1,8 @@
 .header {
+  background: url(../img/destaque.jpeg) no-repeat;
   background-size: cover;
+  width: 100%;
+  margin: auto;
   padding-top: 32px;
 }
 

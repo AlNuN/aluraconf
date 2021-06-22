@@ -5,15 +5,13 @@
   --button-bg: #48a3a6;
 }
 
-.content {
-  background: url(../img/destaque.jpeg) no-repeat;
-  background-size: cover;
-  width: 100%;
-  margin: auto;
-}
-
 .flex-center {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
 }
