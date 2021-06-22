@@ -1,0 +1,19 @@
+:root {
+  --button-hover: #46989D;
+  --grey: rgba(0,0,0,0.1);
+  --limegreen: #64ff64;
+  --button-bg: #48a3a6;
+}
+
+.content {
+  background: url(../img/destaque.jpeg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
