@@ -3,6 +3,7 @@
   --grey: rgba(0,0,0,0.1);
   --limegreen: #64ff64;
   --button-bg: #48a3a6;
+  --orange: #ef7247;
 }
 
 .flex-center {
@@ -14,4 +15,33 @@
 .container {
   width: 96%;
   margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 25px 50px;
+  background-color: var(--button-bg);
+  border-radius: 8px;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.field .field-input {
+  width: 100%;
+  display: block;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
 }

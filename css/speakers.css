@@ -1,5 +1,5 @@
 .panel-speakers {
-  background-color: #ef7247;
+  background-color: var(--orange);
   margin-top: 20px;
 }
 
